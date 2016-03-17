@@ -18,6 +18,8 @@
 		FDE714A11C995FC6004A3905 /* BSMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7148C1C995FC6004A3905 /* BSMeViewController.m */; };
 		FDE714A21C995FC6004A3905 /* BSNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE714921C995FC6004A3905 /* BSNewViewController.m */; };
 		FDE714A31C995FC6004A3905 /* BSJHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE714981C995FC6004A3905 /* BSJHViewController.m */; };
+		FDE714A61C9994F4004A3905 /* BSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE714A51C9994F4004A3905 /* BSNavigationController.m */; };
+		FDE714A81C99A8F8004A3905 /* BSFriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE714A71C99A8F8004A3905 /* BSFriendsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,9 @@
 		FDE714921C995FC6004A3905 /* BSNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNewViewController.m; sourceTree = "<group>"; };
 		FDE714971C995FC6004A3905 /* BSJHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSJHViewController.h; sourceTree = "<group>"; };
 		FDE714981C995FC6004A3905 /* BSJHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSJHViewController.m; sourceTree = "<group>"; };
+		FDE714A41C9994F4004A3905 /* BSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNavigationController.h; sourceTree = "<group>"; };
+		FDE714A51C9994F4004A3905 /* BSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNavigationController.m; sourceTree = "<group>"; };
+		FDE714A71C99A8F8004A3905 /* BSFriendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSFriendsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +126,7 @@
 			children = (
 				FDE714781C995FC6004A3905 /* BSFriendsViewController.h */,
 				FDE714791C995FC6004A3905 /* BSFriendsViewController.m */,
+				FDE714A71C99A8F8004A3905 /* BSFriendsViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -166,6 +172,8 @@
 			children = (
 				FDE714831C995FC6004A3905 /* BSTabBarViewController.h */,
 				FDE714841C995FC6004A3905 /* BSTabBarViewController.m */,
+				FDE714A41C9994F4004A3905 /* BSNavigationController.h */,
+				FDE714A51C9994F4004A3905 /* BSNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -337,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD27F7AB1C97F19700BD7E0A /* Assets.xcassets in Resources */,
+				FDE714A81C99A8F8004A3905 /* BSFriendsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +358,7 @@
 			files = (
 				FDE7149C1C995FC6004A3905 /* BSFriendsViewController.m in Sources */,
 				FDE7149B1C995FC6004A3905 /* AppDelegate.m in Sources */,
+				FDE714A61C9994F4004A3905 /* BSNavigationController.m in Sources */,
 				FD27F7A01C97F19600BD7E0A /* main.m in Sources */,
 				FDE714A31C995FC6004A3905 /* BSJHViewController.m in Sources */,
 				FDE7149F1C995FC6004A3905 /* BSTabBarViewController.m in Sources */,
