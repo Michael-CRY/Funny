@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C618A83C5F6461824CF8D77 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCAD1DCDBD5BED3EBBB0274 /* libPods.a */; };
 		FD27F7A01C97F19600BD7E0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD27F79F1C97F19600BD7E0A /* main.m */; };
 		FD27F7AB1C97F19700BD7E0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD27F7AA1C97F19700BD7E0A /* Assets.xcassets */; };
+		FD6162151C9AA2B8007F994D /* BSPlusFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6162131C9AA2B8007F994D /* BSPlusFriendsViewController.m */; };
+		FD6162161C9AA2B8007F994D /* BSPlusFriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD6162141C9AA2B8007F994D /* BSPlusFriendsViewController.xib */; };
+		FD6162191C9AB0C8007F994D /* BSplusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6162181C9AB0C8007F994D /* BSplusModel.m */; };
+		FD681FE11C9BDF8A009F7A5A /* BSFriendsUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD681FDF1C9BDF8A009F7A5A /* BSFriendsUserCell.m */; };
+		FD681FE21C9BDF8A009F7A5A /* BSFriendsUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD681FE01C9BDF8A009F7A5A /* BSFriendsUserCell.xib */; };
+		FD681FE51C9BED3C009F7A5A /* BSUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD681FE41C9BED3C009F7A5A /* BSUserModel.m */; };
 		FDE7149B1C995FC6004A3905 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE714751C995FC6004A3905 /* AppDelegate.m */; };
 		FDE7149C1C995FC6004A3905 /* BSFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE714791C995FC6004A3905 /* BSFriendsViewController.m */; };
 		FDE7149D1C995FC6004A3905 /* UIBarButtonItem+BSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7147F1C995FC6004A3905 /* UIBarButtonItem+BSExtension.m */; };
@@ -20,13 +27,28 @@
 		FDE714A31C995FC6004A3905 /* BSJHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE714981C995FC6004A3905 /* BSJHViewController.m */; };
 		FDE714A61C9994F4004A3905 /* BSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE714A51C9994F4004A3905 /* BSNavigationController.m */; };
 		FDE714A81C99A8F8004A3905 /* BSFriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE714A71C99A8F8004A3905 /* BSFriendsViewController.xib */; };
+		FDE781F71C9ACF6A000FD870 /* BSplusFriendsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE781F51C9ACF6A000FD870 /* BSplusFriendsCell.m */; };
+		FDE781F81C9ACF6A000FD870 /* BSplusFriendsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE781F61C9ACF6A000FD870 /* BSplusFriendsCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18840CEE011170813002CD0B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		56CE8FE90BF86BEC299D0A4E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8CCAD1DCDBD5BED3EBBB0274 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD27F79B1C97F19600BD7E0A /* 01-百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD27F79F1C97F19600BD7E0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD27F7AA1C97F19700BD7E0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD27F7AF1C97F19700BD7E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6162121C9AA2B8007F994D /* BSPlusFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPlusFriendsViewController.h; sourceTree = "<group>"; };
+		FD6162131C9AA2B8007F994D /* BSPlusFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPlusFriendsViewController.m; sourceTree = "<group>"; };
+		FD6162141C9AA2B8007F994D /* BSPlusFriendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSPlusFriendsViewController.xib; sourceTree = "<group>"; };
+		FD6162171C9AB0C8007F994D /* BSplusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSplusModel.h; sourceTree = "<group>"; };
+		FD6162181C9AB0C8007F994D /* BSplusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSplusModel.m; sourceTree = "<group>"; };
+		FD681FDE1C9BDF8A009F7A5A /* BSFriendsUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFriendsUserCell.h; sourceTree = "<group>"; };
+		FD681FDF1C9BDF8A009F7A5A /* BSFriendsUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFriendsUserCell.m; sourceTree = "<group>"; };
+		FD681FE01C9BDF8A009F7A5A /* BSFriendsUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSFriendsUserCell.xib; sourceTree = "<group>"; };
+		FD681FE31C9BED3C009F7A5A /* BSUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSUserModel.h; sourceTree = "<group>"; };
+		FD681FE41C9BED3C009F7A5A /* BSUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSUserModel.m; sourceTree = "<group>"; };
 		FDE714741C995FC6004A3905 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FDE714751C995FC6004A3905 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FDE714781C995FC6004A3905 /* BSFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFriendsViewController.h; sourceTree = "<group>"; };
@@ -49,6 +71,9 @@
 		FDE714A41C9994F4004A3905 /* BSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNavigationController.h; sourceTree = "<group>"; };
 		FDE714A51C9994F4004A3905 /* BSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNavigationController.m; sourceTree = "<group>"; };
 		FDE714A71C99A8F8004A3905 /* BSFriendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSFriendsViewController.xib; sourceTree = "<group>"; };
+		FDE781F41C9ACF6A000FD870 /* BSplusFriendsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSplusFriendsCell.h; sourceTree = "<group>"; };
+		FDE781F51C9ACF6A000FD870 /* BSplusFriendsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSplusFriendsCell.m; sourceTree = "<group>"; };
+		FDE781F61C9ACF6A000FD870 /* BSplusFriendsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSplusFriendsCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,17 +81,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C618A83C5F6461824CF8D77 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08D7A48016E811863C9DD91C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56CE8FE90BF86BEC299D0A4E /* Pods.debug.xcconfig */,
+				18840CEE011170813002CD0B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6EBEC67484AD85D6A3D1601 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CCAD1DCDBD5BED3EBBB0274 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FD27F7921C97F19600BD7E0A = {
 			isa = PBXGroup;
 			children = (
 				FD27F79D1C97F19600BD7E0A /* 01-百思不得姐 */,
 				FD27F79C1C97F19600BD7E0A /* Products */,
+				08D7A48016E811863C9DD91C /* Pods */,
+				C6EBEC67484AD85D6A3D1601 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +172,9 @@
 				FDE714781C995FC6004A3905 /* BSFriendsViewController.h */,
 				FDE714791C995FC6004A3905 /* BSFriendsViewController.m */,
 				FDE714A71C99A8F8004A3905 /* BSFriendsViewController.xib */,
+				FD6162121C9AA2B8007F994D /* BSPlusFriendsViewController.h */,
+				FD6162131C9AA2B8007F994D /* BSPlusFriendsViewController.m */,
+				FD6162141C9AA2B8007F994D /* BSPlusFriendsViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -134,6 +182,10 @@
 		FDE7147A1C995FC6004A3905 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FD6162171C9AB0C8007F994D /* BSplusModel.h */,
+				FD6162181C9AB0C8007F994D /* BSplusModel.m */,
+				FD681FE31C9BED3C009F7A5A /* BSUserModel.h */,
+				FD681FE41C9BED3C009F7A5A /* BSUserModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -141,6 +193,12 @@
 		FDE7147B1C995FC6004A3905 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FDE781F41C9ACF6A000FD870 /* BSplusFriendsCell.h */,
+				FDE781F51C9ACF6A000FD870 /* BSplusFriendsCell.m */,
+				FDE781F61C9ACF6A000FD870 /* BSplusFriendsCell.xib */,
+				FD681FDE1C9BDF8A009F7A5A /* BSFriendsUserCell.h */,
+				FD681FDF1C9BDF8A009F7A5A /* BSFriendsUserCell.m */,
+				FD681FE01C9BDF8A009F7A5A /* BSFriendsUserCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -293,9 +351,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD27F7B21C97F19700BD7E0A /* Build configuration list for PBXNativeTarget "01-百思不得姐" */;
 			buildPhases = (
+				569842A76043263424B925E7 /* Check Pods Manifest.lock */,
 				FD27F7971C97F19600BD7E0A /* Sources */,
 				FD27F7981C97F19600BD7E0A /* Frameworks */,
 				FD27F7991C97F19600BD7E0A /* Resources */,
+				DB34D7690CBDA1FA476C3AEA /* Embed Pods Frameworks */,
+				8FDD94CCE99C95ECFC093C3D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -345,11 +406,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD27F7AB1C97F19700BD7E0A /* Assets.xcassets in Resources */,
+				FD6162161C9AA2B8007F994D /* BSPlusFriendsViewController.xib in Resources */,
+				FD681FE21C9BDF8A009F7A5A /* BSFriendsUserCell.xib in Resources */,
+				FDE781F81C9ACF6A000FD870 /* BSplusFriendsCell.xib in Resources */,
 				FDE714A81C99A8F8004A3905 /* BSFriendsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		569842A76043263424B925E7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FDD94CCE99C95ECFC093C3D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB34D7690CBDA1FA476C3AEA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FD27F7971C97F19600BD7E0A /* Sources */ = {
@@ -362,10 +474,15 @@
 				FD27F7A01C97F19600BD7E0A /* main.m in Sources */,
 				FDE714A31C995FC6004A3905 /* BSJHViewController.m in Sources */,
 				FDE7149F1C995FC6004A3905 /* BSTabBarViewController.m in Sources */,
+				FDE781F71C9ACF6A000FD870 /* BSplusFriendsCell.m in Sources */,
 				FDE714A21C995FC6004A3905 /* BSNewViewController.m in Sources */,
+				FD6162191C9AB0C8007F994D /* BSplusModel.m in Sources */,
+				FD6162151C9AA2B8007F994D /* BSPlusFriendsViewController.m in Sources */,
 				FDE714A01C995FC6004A3905 /* BSTabBar.m in Sources */,
 				FDE714A11C995FC6004A3905 /* BSMeViewController.m in Sources */,
 				FDE7149E1C995FC6004A3905 /* UIView+BSViewExtension.m in Sources */,
+				FD681FE51C9BED3C009F7A5A /* BSUserModel.m in Sources */,
+				FD681FE11C9BDF8A009F7A5A /* BSFriendsUserCell.m in Sources */,
 				FDE7149D1C995FC6004A3905 /* UIBarButtonItem+BSExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,6 +572,7 @@
 		};
 		FD27F7B31C97F19700BD7E0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56CE8FE90BF86BEC299D0A4E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -468,6 +586,7 @@
 		};
 		FD27F7B41C97F19700BD7E0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18840CEE011170813002CD0B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
