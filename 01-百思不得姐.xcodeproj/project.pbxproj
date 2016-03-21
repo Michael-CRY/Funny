@@ -10,6 +10,14 @@
 		7C618A83C5F6461824CF8D77 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCAD1DCDBD5BED3EBBB0274 /* libPods.a */; };
 		FD27F7A01C97F19600BD7E0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD27F79F1C97F19600BD7E0A /* main.m */; };
 		FD27F7AB1C97F19700BD7E0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD27F7AA1C97F19700BD7E0A /* Assets.xcassets */; };
+		FD4930FC1C9E4C3A0091502F /* BSVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4930FB1C9E4C3A0091502F /* BSVerticalButton.m */; };
+		FD4930FF1C9E7AB70091502F /* BSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4930FE1C9E7AB70091502F /* BSTextField.m */; };
+		FD5D0F7B1C9D4D90007D4EC1 /* BSRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5D0F7A1C9D4D90007D4EC1 /* BSRecommendTagsViewController.m */; };
+		FD5D0F7E1C9D51CC007D4EC1 /* BSRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5D0F7D1C9D51CC007D4EC1 /* BSRecommendTag.m */; };
+		FD5D0F821C9D5456007D4EC1 /* BSRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5D0F801C9D5456007D4EC1 /* BSRecommendTagCell.m */; };
+		FD5D0F831C9D5456007D4EC1 /* BSRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD5D0F811C9D5456007D4EC1 /* BSRecommendTagCell.xib */; };
+		FD5D0F871C9D9471007D4EC1 /* BSLoginRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5D0F851C9D9471007D4EC1 /* BSLoginRegisterController.m */; };
+		FD5D0F881C9D9471007D4EC1 /* BSLoginRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD5D0F861C9D9471007D4EC1 /* BSLoginRegisterController.xib */; };
 		FD6162151C9AA2B8007F994D /* BSPlusFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6162131C9AA2B8007F994D /* BSPlusFriendsViewController.m */; };
 		FD6162161C9AA2B8007F994D /* BSPlusFriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD6162141C9AA2B8007F994D /* BSPlusFriendsViewController.xib */; };
 		FD6162191C9AB0C8007F994D /* BSplusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6162181C9AB0C8007F994D /* BSplusModel.m */; };
@@ -39,6 +47,20 @@
 		FD27F79F1C97F19600BD7E0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD27F7AA1C97F19700BD7E0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD27F7AF1C97F19700BD7E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4930FA1C9E4C3A0091502F /* BSVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSVerticalButton.h; sourceTree = "<group>"; };
+		FD4930FB1C9E4C3A0091502F /* BSVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSVerticalButton.m; sourceTree = "<group>"; };
+		FD4930FD1C9E7AB70091502F /* BSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTextField.h; sourceTree = "<group>"; };
+		FD4930FE1C9E7AB70091502F /* BSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTextField.m; sourceTree = "<group>"; };
+		FD5D0F791C9D4D90007D4EC1 /* BSRecommendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSRecommendTagsViewController.h; sourceTree = "<group>"; };
+		FD5D0F7A1C9D4D90007D4EC1 /* BSRecommendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSRecommendTagsViewController.m; sourceTree = "<group>"; };
+		FD5D0F7C1C9D51CC007D4EC1 /* BSRecommendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSRecommendTag.h; sourceTree = "<group>"; };
+		FD5D0F7D1C9D51CC007D4EC1 /* BSRecommendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSRecommendTag.m; sourceTree = "<group>"; };
+		FD5D0F7F1C9D5456007D4EC1 /* BSRecommendTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSRecommendTagCell.h; sourceTree = "<group>"; };
+		FD5D0F801C9D5456007D4EC1 /* BSRecommendTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSRecommendTagCell.m; sourceTree = "<group>"; };
+		FD5D0F811C9D5456007D4EC1 /* BSRecommendTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSRecommendTagCell.xib; sourceTree = "<group>"; };
+		FD5D0F841C9D9471007D4EC1 /* BSLoginRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLoginRegisterController.h; sourceTree = "<group>"; };
+		FD5D0F851C9D9471007D4EC1 /* BSLoginRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLoginRegisterController.m; sourceTree = "<group>"; };
+		FD5D0F861C9D9471007D4EC1 /* BSLoginRegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSLoginRegisterController.xib; sourceTree = "<group>"; };
 		FD6162121C9AA2B8007F994D /* BSPlusFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPlusFriendsViewController.h; sourceTree = "<group>"; };
 		FD6162131C9AA2B8007F994D /* BSPlusFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPlusFriendsViewController.m; sourceTree = "<group>"; };
 		FD6162141C9AA2B8007F994D /* BSPlusFriendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSPlusFriendsViewController.xib; sourceTree = "<group>"; };
@@ -175,6 +197,9 @@
 				FD6162121C9AA2B8007F994D /* BSPlusFriendsViewController.h */,
 				FD6162131C9AA2B8007F994D /* BSPlusFriendsViewController.m */,
 				FD6162141C9AA2B8007F994D /* BSPlusFriendsViewController.xib */,
+				FD5D0F841C9D9471007D4EC1 /* BSLoginRegisterController.h */,
+				FD5D0F851C9D9471007D4EC1 /* BSLoginRegisterController.m */,
+				FD5D0F861C9D9471007D4EC1 /* BSLoginRegisterController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -199,6 +224,10 @@
 				FD681FDE1C9BDF8A009F7A5A /* BSFriendsUserCell.h */,
 				FD681FDF1C9BDF8A009F7A5A /* BSFriendsUserCell.m */,
 				FD681FE01C9BDF8A009F7A5A /* BSFriendsUserCell.xib */,
+				FD4930FA1C9E4C3A0091502F /* BSVerticalButton.h */,
+				FD4930FB1C9E4C3A0091502F /* BSVerticalButton.m */,
+				FD4930FD1C9E7AB70091502F /* BSTextField.h */,
+				FD4930FE1C9E7AB70091502F /* BSTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -326,6 +355,8 @@
 			children = (
 				FDE714971C995FC6004A3905 /* BSJHViewController.h */,
 				FDE714981C995FC6004A3905 /* BSJHViewController.m */,
+				FD5D0F791C9D4D90007D4EC1 /* BSRecommendTagsViewController.h */,
+				FD5D0F7A1C9D4D90007D4EC1 /* BSRecommendTagsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -333,6 +364,8 @@
 		FDE714991C995FC6004A3905 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FD5D0F7C1C9D51CC007D4EC1 /* BSRecommendTag.h */,
+				FD5D0F7D1C9D51CC007D4EC1 /* BSRecommendTag.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -340,6 +373,9 @@
 		FDE7149A1C995FC6004A3905 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FD5D0F7F1C9D5456007D4EC1 /* BSRecommendTagCell.h */,
+				FD5D0F801C9D5456007D4EC1 /* BSRecommendTagCell.m */,
+				FD5D0F811C9D5456007D4EC1 /* BSRecommendTagCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -405,7 +441,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD5D0F831C9D5456007D4EC1 /* BSRecommendTagCell.xib in Resources */,
 				FD27F7AB1C97F19700BD7E0A /* Assets.xcassets in Resources */,
+				FD5D0F881C9D9471007D4EC1 /* BSLoginRegisterController.xib in Resources */,
 				FD6162161C9AA2B8007F994D /* BSPlusFriendsViewController.xib in Resources */,
 				FD681FE21C9BDF8A009F7A5A /* BSFriendsUserCell.xib in Resources */,
 				FDE781F81C9ACF6A000FD870 /* BSplusFriendsCell.xib in Resources */,
@@ -472,17 +510,23 @@
 				FDE7149B1C995FC6004A3905 /* AppDelegate.m in Sources */,
 				FDE714A61C9994F4004A3905 /* BSNavigationController.m in Sources */,
 				FD27F7A01C97F19600BD7E0A /* main.m in Sources */,
+				FD5D0F7E1C9D51CC007D4EC1 /* BSRecommendTag.m in Sources */,
+				FD5D0F821C9D5456007D4EC1 /* BSRecommendTagCell.m in Sources */,
 				FDE714A31C995FC6004A3905 /* BSJHViewController.m in Sources */,
 				FDE7149F1C995FC6004A3905 /* BSTabBarViewController.m in Sources */,
+				FD4930FC1C9E4C3A0091502F /* BSVerticalButton.m in Sources */,
 				FDE781F71C9ACF6A000FD870 /* BSplusFriendsCell.m in Sources */,
 				FDE714A21C995FC6004A3905 /* BSNewViewController.m in Sources */,
 				FD6162191C9AB0C8007F994D /* BSplusModel.m in Sources */,
 				FD6162151C9AA2B8007F994D /* BSPlusFriendsViewController.m in Sources */,
 				FDE714A01C995FC6004A3905 /* BSTabBar.m in Sources */,
+				FD4930FF1C9E7AB70091502F /* BSTextField.m in Sources */,
+				FD5D0F871C9D9471007D4EC1 /* BSLoginRegisterController.m in Sources */,
 				FDE714A11C995FC6004A3905 /* BSMeViewController.m in Sources */,
 				FDE7149E1C995FC6004A3905 /* UIView+BSViewExtension.m in Sources */,
 				FD681FE51C9BED3C009F7A5A /* BSUserModel.m in Sources */,
 				FD681FE11C9BDF8A009F7A5A /* BSFriendsUserCell.m in Sources */,
+				FD5D0F7B1C9D4D90007D4EC1 /* BSRecommendTagsViewController.m in Sources */,
 				FDE7149D1C995FC6004A3905 /* UIBarButtonItem+BSExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
