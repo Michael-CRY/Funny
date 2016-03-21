@@ -24,6 +24,8 @@
 		FD681FE11C9BDF8A009F7A5A /* BSFriendsUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD681FDF1C9BDF8A009F7A5A /* BSFriendsUserCell.m */; };
 		FD681FE21C9BDF8A009F7A5A /* BSFriendsUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD681FE01C9BDF8A009F7A5A /* BSFriendsUserCell.xib */; };
 		FD681FE51C9BED3C009F7A5A /* BSUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD681FE41C9BED3C009F7A5A /* BSUserModel.m */; };
+		FDAA85181C9FDC7C0008808D /* BSPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAA85171C9FDC7C0008808D /* BSPushGuideView.m */; };
+		FDAA851A1C9FDCA00008808D /* BSPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDAA85191C9FDCA00008808D /* BSPushGuideView.xib */; };
 		FDE7149B1C995FC6004A3905 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE714751C995FC6004A3905 /* AppDelegate.m */; };
 		FDE7149C1C995FC6004A3905 /* BSFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE714791C995FC6004A3905 /* BSFriendsViewController.m */; };
 		FDE7149D1C995FC6004A3905 /* UIBarButtonItem+BSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE7147F1C995FC6004A3905 /* UIBarButtonItem+BSExtension.m */; };
@@ -71,6 +73,9 @@
 		FD681FE01C9BDF8A009F7A5A /* BSFriendsUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSFriendsUserCell.xib; sourceTree = "<group>"; };
 		FD681FE31C9BED3C009F7A5A /* BSUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSUserModel.h; sourceTree = "<group>"; };
 		FD681FE41C9BED3C009F7A5A /* BSUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSUserModel.m; sourceTree = "<group>"; };
+		FDAA85161C9FDC7C0008808D /* BSPushGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPushGuideView.h; sourceTree = "<group>"; };
+		FDAA85171C9FDC7C0008808D /* BSPushGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPushGuideView.m; sourceTree = "<group>"; };
+		FDAA85191C9FDCA00008808D /* BSPushGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSPushGuideView.xib; sourceTree = "<group>"; };
 		FDE714741C995FC6004A3905 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FDE714751C995FC6004A3905 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FDE714781C995FC6004A3905 /* BSFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFriendsViewController.h; sourceTree = "<group>"; };
@@ -270,6 +275,9 @@
 			children = (
 				FDE714871C995FC6004A3905 /* BSTabBar.h */,
 				FDE714881C995FC6004A3905 /* BSTabBar.m */,
+				FDAA85161C9FDC7C0008808D /* BSPushGuideView.h */,
+				FDAA85171C9FDC7C0008808D /* BSPushGuideView.m */,
+				FDAA85191C9FDCA00008808D /* BSPushGuideView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -443,6 +451,7 @@
 			files = (
 				FD5D0F831C9D5456007D4EC1 /* BSRecommendTagCell.xib in Resources */,
 				FD27F7AB1C97F19700BD7E0A /* Assets.xcassets in Resources */,
+				FDAA851A1C9FDCA00008808D /* BSPushGuideView.xib in Resources */,
 				FD5D0F881C9D9471007D4EC1 /* BSLoginRegisterController.xib in Resources */,
 				FD6162161C9AA2B8007F994D /* BSPlusFriendsViewController.xib in Resources */,
 				FD681FE21C9BDF8A009F7A5A /* BSFriendsUserCell.xib in Resources */,
@@ -524,6 +533,7 @@
 				FD5D0F871C9D9471007D4EC1 /* BSLoginRegisterController.m in Sources */,
 				FDE714A11C995FC6004A3905 /* BSMeViewController.m in Sources */,
 				FDE7149E1C995FC6004A3905 /* UIView+BSViewExtension.m in Sources */,
+				FDAA85181C9FDC7C0008808D /* BSPushGuideView.m in Sources */,
 				FD681FE51C9BED3C009F7A5A /* BSUserModel.m in Sources */,
 				FD681FE11C9BDF8A009F7A5A /* BSFriendsUserCell.m in Sources */,
 				FD5D0F7B1C9D4D90007D4EC1 /* BSRecommendTagsViewController.m in Sources */,

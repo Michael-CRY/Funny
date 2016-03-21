@@ -284,6 +284,7 @@
                 <constraint firstItem="G9L-7P-yac" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qpt-1W-hjp"/>
                 <constraint firstItem="Pod-Hu-hW4" firstAttribute="top" secondItem="ZJN-Zj-kZn" secondAttribute="top" id="wy3-FI-NbJ"/>
             </constraints>
+            <point key="canvasLocation" x="83" y="354"/>
         </view>
     </objects>
     <resources>
