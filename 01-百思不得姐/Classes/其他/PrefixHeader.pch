@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  01-百思不得姐
+//
+//  Created by 柴闰严 on 16/3/16.
+//  Copyright © 2016年 KING. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+BSViewExtension.h"
+#import "UIBarButtonItem+BSExtension.h"
+
+#ifdef DEBUG
+#define BSLog(...) NSLog(__VA_ARGS__)
+#else
+#define BSLog(...)
+#endif
+
+#define BSLogFunc BSLog(@"%s", __func__)
+
+#define backgroundColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define BSBackgroundColor backgroundColor(223, 223, 223)
+
+#endif /* PrefixHeader_pch */
