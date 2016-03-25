@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7C618A83C5F6461824CF8D77 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCAD1DCDBD5BED3EBBB0274 /* libPods.a */; };
+		FD10B0061CA4E30600A1D89D /* NSDate+BSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10B0051CA4E30600A1D89D /* NSDate+BSExtension.m */; };
+		FD10B0091CA5269900A1D89D /* BSTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD10B0081CA5269900A1D89D /* BSTopicViewController.m */; };
 		FD27F7A01C97F19600BD7E0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD27F79F1C97F19600BD7E0A /* main.m */; };
 		FD27F7AB1C97F19700BD7E0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD27F7AA1C97F19700BD7E0A /* Assets.xcassets */; };
 		FD4930FC1C9E4C3A0091502F /* BSVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4930FB1C9E4C3A0091502F /* BSVerticalButton.m */; };
@@ -18,6 +20,10 @@
 		FD5D0F831C9D5456007D4EC1 /* BSRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD5D0F811C9D5456007D4EC1 /* BSRecommendTagCell.xib */; };
 		FD5D0F871C9D9471007D4EC1 /* BSLoginRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5D0F851C9D9471007D4EC1 /* BSLoginRegisterController.m */; };
 		FD5D0F881C9D9471007D4EC1 /* BSLoginRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD5D0F861C9D9471007D4EC1 /* BSLoginRegisterController.xib */; };
+		FD5E44551CA3778300268236 /* BSTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5E44541CA3778300268236 /* BSTopic.m */; };
+		FD5E44581CA3965000268236 /* BSConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5E44571CA3965000268236 /* BSConst.m */; };
+		FD5E445C1CA3D3B900268236 /* BSTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5E445A1CA3D3B900268236 /* BSTopicCell.m */; };
+		FD5E445D1CA3D3B900268236 /* BSTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD5E445B1CA3D3B900268236 /* BSTopicCell.xib */; };
 		FD6162151C9AA2B8007F994D /* BSPlusFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6162131C9AA2B8007F994D /* BSPlusFriendsViewController.m */; };
 		FD6162161C9AA2B8007F994D /* BSPlusFriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD6162141C9AA2B8007F994D /* BSPlusFriendsViewController.xib */; };
 		FD6162191C9AB0C8007F994D /* BSplusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6162181C9AB0C8007F994D /* BSplusModel.m */; };
@@ -45,6 +51,10 @@
 		18840CEE011170813002CD0B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		56CE8FE90BF86BEC299D0A4E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8CCAD1DCDBD5BED3EBBB0274 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD10B0041CA4E30600A1D89D /* NSDate+BSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BSExtension.h"; sourceTree = "<group>"; };
+		FD10B0051CA4E30600A1D89D /* NSDate+BSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BSExtension.m"; sourceTree = "<group>"; };
+		FD10B0071CA5269900A1D89D /* BSTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTopicViewController.h; sourceTree = "<group>"; };
+		FD10B0081CA5269900A1D89D /* BSTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTopicViewController.m; sourceTree = "<group>"; };
 		FD27F79B1C97F19600BD7E0A /* 笑吧.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "笑吧.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD27F79F1C97F19600BD7E0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD27F7AA1C97F19700BD7E0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +73,13 @@
 		FD5D0F841C9D9471007D4EC1 /* BSLoginRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLoginRegisterController.h; sourceTree = "<group>"; };
 		FD5D0F851C9D9471007D4EC1 /* BSLoginRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLoginRegisterController.m; sourceTree = "<group>"; };
 		FD5D0F861C9D9471007D4EC1 /* BSLoginRegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSLoginRegisterController.xib; sourceTree = "<group>"; };
+		FD5E44531CA3778300268236 /* BSTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTopic.h; sourceTree = "<group>"; };
+		FD5E44541CA3778300268236 /* BSTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTopic.m; sourceTree = "<group>"; };
+		FD5E44561CA3965000268236 /* BSConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSConst.h; sourceTree = "<group>"; };
+		FD5E44571CA3965000268236 /* BSConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSConst.m; sourceTree = "<group>"; };
+		FD5E44591CA3D3B900268236 /* BSTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTopicCell.h; sourceTree = "<group>"; };
+		FD5E445A1CA3D3B900268236 /* BSTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTopicCell.m; sourceTree = "<group>"; };
+		FD5E445B1CA3D3B900268236 /* BSTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSTopicCell.xib; sourceTree = "<group>"; };
 		FD6162121C9AA2B8007F994D /* BSPlusFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPlusFriendsViewController.h; sourceTree = "<group>"; };
 		FD6162131C9AA2B8007F994D /* BSPlusFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPlusFriendsViewController.m; sourceTree = "<group>"; };
 		FD6162141C9AA2B8007F994D /* BSPlusFriendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSPlusFriendsViewController.xib; sourceTree = "<group>"; };
@@ -244,6 +261,8 @@
 				FDE714821C995FC6004A3905 /* Controller */,
 				FDE714851C995FC6004A3905 /* PrefixHeader.pch */,
 				FDE714861C995FC6004A3905 /* View */,
+				FD5E44561CA3965000268236 /* BSConst.h */,
+				FD5E44571CA3965000268236 /* BSConst.m */,
 			);
 			path = "其他";
 			sourceTree = "<group>";
@@ -255,6 +274,8 @@
 				FDE7147F1C995FC6004A3905 /* UIBarButtonItem+BSExtension.m */,
 				FDE714801C995FC6004A3905 /* UIView+BSViewExtension.h */,
 				FDE714811C995FC6004A3905 /* UIView+BSViewExtension.m */,
+				FD10B0041CA4E30600A1D89D /* NSDate+BSExtension.h */,
+				FD10B0051CA4E30600A1D89D /* NSDate+BSExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -365,6 +386,8 @@
 				FDE714981C995FC6004A3905 /* BSJHViewController.m */,
 				FD5D0F791C9D4D90007D4EC1 /* BSRecommendTagsViewController.h */,
 				FD5D0F7A1C9D4D90007D4EC1 /* BSRecommendTagsViewController.m */,
+				FD10B0071CA5269900A1D89D /* BSTopicViewController.h */,
+				FD10B0081CA5269900A1D89D /* BSTopicViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -374,6 +397,8 @@
 			children = (
 				FD5D0F7C1C9D51CC007D4EC1 /* BSRecommendTag.h */,
 				FD5D0F7D1C9D51CC007D4EC1 /* BSRecommendTag.m */,
+				FD5E44531CA3778300268236 /* BSTopic.h */,
+				FD5E44541CA3778300268236 /* BSTopic.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -384,6 +409,9 @@
 				FD5D0F7F1C9D5456007D4EC1 /* BSRecommendTagCell.h */,
 				FD5D0F801C9D5456007D4EC1 /* BSRecommendTagCell.m */,
 				FD5D0F811C9D5456007D4EC1 /* BSRecommendTagCell.xib */,
+				FD5E44591CA3D3B900268236 /* BSTopicCell.h */,
+				FD5E445A1CA3D3B900268236 /* BSTopicCell.m */,
+				FD5E445B1CA3D3B900268236 /* BSTopicCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -449,6 +477,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD5E445D1CA3D3B900268236 /* BSTopicCell.xib in Resources */,
 				FD5D0F831C9D5456007D4EC1 /* BSRecommendTagCell.xib in Resources */,
 				FD27F7AB1C97F19700BD7E0A /* Assets.xcassets in Resources */,
 				FDAA851A1C9FDCA00008808D /* BSPushGuideView.xib in Resources */,
@@ -519,13 +548,18 @@
 				FDE7149B1C995FC6004A3905 /* AppDelegate.m in Sources */,
 				FDE714A61C9994F4004A3905 /* BSNavigationController.m in Sources */,
 				FD27F7A01C97F19600BD7E0A /* main.m in Sources */,
+				FD5E44581CA3965000268236 /* BSConst.m in Sources */,
 				FD5D0F7E1C9D51CC007D4EC1 /* BSRecommendTag.m in Sources */,
 				FD5D0F821C9D5456007D4EC1 /* BSRecommendTagCell.m in Sources */,
 				FDE714A31C995FC6004A3905 /* BSJHViewController.m in Sources */,
 				FDE7149F1C995FC6004A3905 /* BSTabBarViewController.m in Sources */,
+				FD10B0061CA4E30600A1D89D /* NSDate+BSExtension.m in Sources */,
+				FD10B0091CA5269900A1D89D /* BSTopicViewController.m in Sources */,
 				FD4930FC1C9E4C3A0091502F /* BSVerticalButton.m in Sources */,
+				FD5E44551CA3778300268236 /* BSTopic.m in Sources */,
 				FDE781F71C9ACF6A000FD870 /* BSplusFriendsCell.m in Sources */,
 				FDE714A21C995FC6004A3905 /* BSNewViewController.m in Sources */,
+				FD5E445C1CA3D3B900268236 /* BSTopicCell.m in Sources */,
 				FD6162191C9AB0C8007F994D /* BSplusModel.m in Sources */,
 				FD6162151C9AA2B8007F994D /* BSPlusFriendsViewController.m in Sources */,
 				FDE714A01C995FC6004A3905 /* BSTabBar.m in Sources */,

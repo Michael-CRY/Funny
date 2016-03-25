@@ -114,7 +114,7 @@ static NSString *const BJuserFriendId = @"user";
 }
 
 /**
- *  刷新控件
+ *  添加刷新控件
  */
 - (void)setupRefresh{
     
@@ -123,7 +123,6 @@ static NSString *const BJuserFriendId = @"user";
     
     //上拉加载
     self.userTableView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreUsers)];
-    self.userTableView.mj_footer.hidden = YES;
 }
 
 /**
