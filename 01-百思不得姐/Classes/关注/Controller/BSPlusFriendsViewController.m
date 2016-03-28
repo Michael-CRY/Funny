@@ -138,7 +138,7 @@ static NSString *const BJuserFriendId = @"user";
     NSMutableDictionary *param = [NSMutableDictionary dictionary];
     param[@"a"] = @"list";
     param[@"c"] = @"subscribe";
-    param[@"category_id"] = @(m.id);
+    param[@"category_id"] = @(m.ID);
     param[@"page"] = @(m.currentPage);
     self.params = param;
     
@@ -189,7 +189,7 @@ static NSString *const BJuserFriendId = @"user";
     
     param[@"a"] = @"list";
     param[@"c"] = @"subscribe";
-    param[@"category_id"] = @(category.id);
+    param[@"category_id"] = @(category.ID);
     param[@"page"] = @(++category.currentPage);
     self.params = param;
     

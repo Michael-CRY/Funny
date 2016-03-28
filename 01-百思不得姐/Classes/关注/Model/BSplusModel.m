@@ -7,8 +7,15 @@
 //
 
 #import "BSplusModel.h"
+#import <MJExtension.h>
 
 @implementation BSplusModel
+
++ (NSDictionary *)mj_replacedKeyFromPropertyName {
+    
+    return @{@"ID" : @"id"};
+    
+}
 
 - (NSMutableArray *)users{
     if (!_users){

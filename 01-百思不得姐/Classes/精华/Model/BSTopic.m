@@ -7,8 +7,16 @@
 //
 
 #import "BSTopic.h"
+#import <MJExtension.h>
 
 @implementation BSTopic
+{
+    CGFloat _cellHeight;
+}
+
++ (NSDictionary *)mj_replacedKeyFromPropertyName{
+    return @{@"small_image" : @"image0", @"larage_image" : @"image1", @"middle_image" : @"image2"};
+}
 
 - (NSString *)created_at {
     
@@ -40,6 +48,20 @@
         return _created_at;
     }
     
+}
+
+- (CGFloat)cellHeight {
+    
+    if (!_cellHeight) {
+        //文字的最大尺寸
+        CGSize maxSize = CGSizeMake([UIScreen mainScreen].bounds.size.width - 4 * BSTopicCellMargin, MAXFLOAT);
+        //    CGFloat textH = [topic.text sizeWithFont:[UIFont systemFontOfSize:14] constrainedToSize:maxSize].height;
+        CGFloat textH = [self.text boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:14]} context:nil].size.height;
+        
+        //cell的高度
+        _cellHeight = BSTopicCellTextY + textH + BSTopicCellBottomBarH + 2 * BSTopicCellMargin + self.height;
+    }
+    return _cellHeight;
 }
 
 @end

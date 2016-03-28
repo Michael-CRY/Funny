@@ -6,7 +6,7 @@
 //  Copyright © 2016年 KING. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface BSTopic : NSObject
 
@@ -26,5 +26,21 @@
 @property (assign, nonatomic) NSInteger repost;
 /** 评论的数量 */
 @property (assign, nonatomic) NSInteger comment;
+/** 图片的宽度 */
+@property (assign, nonatomic) CGFloat width;
+/** 图片的高度 */
+@property (assign, nonatomic) CGFloat height;
+/** 小图片的URL */
+@property (copy, nonatomic) NSString *small_image;
+/** 大图片的URL */
+@property (copy, nonatomic) NSString *middle_image;
+/** 中图片的URL */
+@property (copy, nonatomic) NSString *large_image;
+
+
+/****** 额外的辅助属性 ******/
+
+/** cell的高度 */
+@property (assign, nonatomic, readonly) CGFloat cellHeight;
 
 @end

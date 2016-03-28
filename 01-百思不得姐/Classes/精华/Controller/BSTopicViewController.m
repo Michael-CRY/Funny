@@ -191,7 +191,10 @@ static NSString * const BSTopicCellId = @"topic";
 
 #pragma mark - 代理方法
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 200;
+    //取出帖子类型
+    BSTopic *topic = self.topics[indexPath.row];
+    
+    return topic.cellHeight;
 }
 
 /*

@@ -12,20 +12,22 @@
 
 @interface BSTopicCell ()
 
-//头像
+/** 头像 */
 @property (weak, nonatomic) IBOutlet UIImageView *profile_image;
-//昵称
+/** 昵称 */
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
-//时间
+/** 时间 */
 @property (weak, nonatomic) IBOutlet UILabel *createLabel;
-//顶
+/** 顶 */
 @property (weak, nonatomic) IBOutlet UIButton *dingButton;
-//踩
+/** 踩 */
 @property (weak, nonatomic) IBOutlet UIButton *caiButton;
-//分享
+/** 分享 */
 @property (weak, nonatomic) IBOutlet UIButton *shareButton;
-//评论
+/** 评论 */
 @property (weak, nonatomic) IBOutlet UIButton *commentButton;
+/** 帖子的文字内容 */
+@property (weak, nonatomic) IBOutlet UILabel *text_Label;
 
 
 @end
@@ -58,6 +60,9 @@
     [self setupButtonTitle:self.caiButton count:topic.cai placeholder:@"踩"];
     [self setupButtonTitle:self.shareButton count:topic.repost placeholder:@"分享"];
     [self setupButtonTitle:self.commentButton count:topic.comment placeholder:@"评论"];
+    
+    //设置帖子的文字内容
+    self.text_Label.text = topic.text;
 }
 
 //- (void)testDate:(NSString *)create_time {
@@ -120,12 +125,10 @@
 
 - (void)setFrame:(CGRect)frame {
     
-    static CGFloat margin = 10;
-    
-    frame.origin.x = margin;
+    frame.origin.x = BSTopicCellMargin;
     frame.size.width -= 2 *frame.origin.x;
-    frame.size.height -= margin;
-    frame.origin.y += margin;
+    frame.size.height -= BSTopicCellMargin;
+    frame.origin.y += BSTopicCellMargin;
     
     [super setFrame:frame];
 }
